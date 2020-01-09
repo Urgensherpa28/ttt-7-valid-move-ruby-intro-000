@@ -4,7 +4,7 @@ def valid_move?(board, index)
   # binding.pry
   if !position_taken?(board, index) && index.between?(1,8)
     true
-  else 
+  else
     false
   end
 end
